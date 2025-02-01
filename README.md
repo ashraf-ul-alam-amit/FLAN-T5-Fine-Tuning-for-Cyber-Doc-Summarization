@@ -1,4 +1,4 @@
-# Cyber Threat Report Summarization with FLAN-T5 and LoRA
+# Cyber Threat Report Summarization Using FLAN-T5 with LoRA Adaptation
 
 ## Overview
 This project aims to enhance cyber threat report summarization using FLAN-T5 with Low-Rank Adaptation (LoRA). FLAN-T5 is a powerful pre-trained transformer model, and LoRA enables efficient fine-tuning by reducing the number of trainable parameters while maintaining performance.
