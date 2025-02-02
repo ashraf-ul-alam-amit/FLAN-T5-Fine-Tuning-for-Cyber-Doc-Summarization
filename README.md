@@ -49,7 +49,7 @@ peft_model.print_trainable_parameters()
 
 ## Prompt Engineering and Tokenization
 
-A prompt is constructed by prefixing each document with a summarization instruction. The documents and human-generated summaries are then tokenized. T5 models require the [`summarize`](https://thecleverprogrammer.com/2024/10/07/text-summarization-model-using-llms/#:~:text=The%20%E2%80%9Csummarize%3A%E2%80%9D%20prefix%20for,summary%20of%20the%20input%20text.)keyword generate text summaries:
+A prompt is constructed by prefixing each document with a summarization instruction. The documents and human-generated summaries are then tokenized. T5 models require the [`summarize`](https://thecleverprogrammer.com/2024/10/07/text-summarization-model-using-llms/#:~:text=The%20%E2%80%9Csummarize%3A%E2%80%9D%20prefix%20for,summary%20of%20the%20input%20text.) keyword generate text summaries:
 
 ```python
 PREFIX = 'Summarize: '
